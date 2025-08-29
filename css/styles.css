@@ -4,6 +4,7 @@
     --color-oscuro: #3e2723;
     --color-claro: #d7ccc8;
     --color-acento: #a1887f;
+    --blanco: #ffffff;
 }
 
 /* ====== NAVBAR ====== */
@@ -26,7 +27,7 @@
 .logo a {
     font-size: 1.6rem;
     font-weight: bold;
-    color: #fff;
+    color: var(--blanco);
     text-decoration: none;
 }
 
@@ -70,7 +71,7 @@
 }
 
 .submenu li a:hover {
-    background: #f3e9dc;
+    background: var(--color-claro);
 }
 
 /* Mostrar submenu */
@@ -84,7 +85,7 @@
     background: none;
     border: none;
     font-size: 1.6rem;
-    color: #fff;
+    color: var(--blanco);
     cursor: pointer;
     display: none;
 }
@@ -94,7 +95,7 @@
     .navegacion {
         display: none;
         flex-direction: column;
-        background: #6f4e37;
+        background: var(--color-marron);
         position: absolute;
         top: 80px;
         right: 20px;
