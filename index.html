@@ -40,13 +40,12 @@
                         <li><a href="box.html">Boxs</a></li>
                     </ul>
 
-                    <a href="quienes.html">Quiénes somos</a>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
-
-                </nav>
-            </div>
+                <a href="somos.html">Quiénes somos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </nav>
         </div>
+    </div>
 
         <div id="cafeteriaCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <!-- Indicadores -->
@@ -101,7 +100,77 @@
         </div>
     </header>
 
+    <!-- CARRUSEL -->
+    <div id="carruselCafe" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x500/?coffee" class="d-block w-100" alt="Café">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>El mejor café de la ciudad</h2>
+                    <p>Aromas y sabores únicos</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x500/?dessert" class="d-block w-100" alt="Postres">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Postres artesanales</h2>
+                    <p>Hechos con amor cada día</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x500/?coffee-shop" class="d-block w-100" alt="Ambiente">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Ambiente acogedor</h2>
+                    <p>El lugar perfecto para compartir</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselCafe" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselCafe" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
 
+    <!-- PRODUCTOS DESTACADOS -->
+    <section id="productos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Productos Destacados</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/400x300/?latte" class="card-img-top" alt="Latte">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Producto1</h5>
+                            <p class="card-text">Café con leche cremoso, mezcla perfecta.</p>
+                            <span class="fw-bold text-success">S/ 12.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/400x300/?cake,chocolate" class="card-img-top" alt="Torta de Chocolate">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Producto2</h5>
+                            <p class="card-text">Suave, húmeda y llena de sabor.</p>
+                            <span class="fw-bold text-success">S/ 15.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/400x300/?sandwich" class="card-img-top" alt="Sandwich">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Producto3</h5>
+                            <p class="card-text">Pan artesanal con jamón y queso.</p>
+                            <span class="fw-bold text-success">S/ 10.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
 
