@@ -1,10 +1,13 @@
 :root {
     --color-marron: #6B4F28;
-    --color-beige: #f3e9dc;
+    --color-beige: #fdf5ea;
     --color-oscuro: #3e2723;
-    --color-claro: #d7ccc8;
+    --color-claro: #eeeeee;
     --color-acento: #a1887f;
     --blanco: #ffffff;
+}
+body{
+    background-color: var(--color-claro);
 }
 
 /* ====== NAVEGADOR ====== */
@@ -74,6 +77,19 @@
     height: 100vh;
     object-fit: cover;
     filter: brightness(60%);
+}
+
+/* ====== SECCIONES ====== */
+.span-marron {
+    background-color: var(--color-marron) !important;
+    color: #fff !important;
+}
+
+.pedidos{
+    background-color: var(--color-oscuro);
+}
+.pedidos a{
+    color: var(--color-oscuro) !important;
 }
 
 /* ====== FOOTER ====== */

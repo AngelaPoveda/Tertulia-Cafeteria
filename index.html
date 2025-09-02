@@ -120,11 +120,12 @@
     </header>
 
     <!--CONOCENOS MÁS-->
-    <section id="nosotros" class="py-5 bg-light">
+    <section id="nosotros" class="py-5">
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-md-6">
-                    <img src="img/local.jpg" class="img-fluid rounded shadow" alt="Nuestro local">
+                    <img src="img/local1.jpg" class="img-fluid rounded shadow w-100" alt="Nuestro local"
+                        style="height: 350px; object-fit: cover; object-position: top;">
                 </div>
                 <div class="col-md-6">
                     <h2 class="fw-bold">Nuestra Historia</h2>
@@ -138,7 +139,70 @@
         </div>
     </section>
 
+    <!-- PROMOCIONES -->
+    <section id="promociones" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Promociones de locura!!!</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card text-center shadow h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Desayuno Continental a S/15</h5>
+                            <p class="card-text">Todos los lunes y miércoles de 9 a 11 am.</p>
+                            <span class="badge span-marron">¡Solo por tiempo limitado!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center shadow h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">2x1 en Lattes</h5>
+                            <p class="card-text">De lunes a viernes, de 4 a 6 pm.</p>
+                            <span class="badge span-marron">¡Válido hasta el 31 de septiembre!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center shadow h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Empana de Pavo a S/10</h5>
+                            <p class="card-text">Solo disponible el día de hoy.</p>
+                            <span class="badge span-marron">¡Válido hasta agotar stock!</span>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCIÓN CARTA -->
+    <section id="carta" class="py-5 text-center bg-light">
+        <div class="container">
+            <h2 class="mb-4">Nuestra Carta</h2>
+            <p>Haz clic en el botón para ver nuestra carta completa.</p>
+            <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#cartaModal">
+                Ver Carta
+            </button>
+        </div>
+    </section>
+
+    <!-- Modal con PDF -->
+    <div class="modal fade" id="cartaModal" tabindex="-1" aria-labelledby="cartaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartaModalLabel">Carta Tertulia Cafetería</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Aquí insertamos el PDF -->
+                    <iframe src="pdf/CARTA.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- PRODUCTOS DESTACADOS -->
@@ -181,6 +245,57 @@
             </div>
         </div>
     </section>
+
+
+    <!-- UBICACIONES -->
+    <section id="ubicaciones" class="py-5 ">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Visítanos en Nuestras Sedes</h2>
+            <div class="row">
+
+                <!-- Sede 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-body text-center">
+                            <h4 class="card-title fw-bold">PRIMAVERA</h4>
+                            <p class="card-text">Jr. Sibelius 984 Urb. Primavera, Trujillo - Perú</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.030147830813!2d-79.0349833!3d-8.0984078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d93950fb9bb%3A0x8a04e02de80c555!2sTertulia!5e0!3m2!1ses!2spe!4v1756786629311!5m2!1ses!2spe"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sede 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-body text-center">
+                            <h4 class="card-title fw-bold">LA MERCED</h4>
+                            <p class="card-text">Ca. Santa Rosa Mz L Lote 1 Urb. La Merced 3 Etapa, Trujillo - Perú</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.7475103181355!2d-79.03808699999999!3d-8.1271688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d28eaf3810f%3A0x5c4f980ea3dda454!2zIlRlcnR1bGlhIiBlbXBhbmFkYXMgJiBtw6Fz!5e0!3m2!1ses!2spe!4v1756786691893!5m2!1ses!2spe"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PEDIDOS ONLINE -->
+    <section id="pedidos" class="py-5 text-white text-center pedidos">
+        <div class="container">
+            <h2 class="fw-bold">Haz tu pedido online</h2>
+            <p class="mb-4">Disfruta tu café y postres favoritos desde casa.</p>
+            <a href="carrito.html" class="btn btn-light btn-lg">Ordenar Ahora</a>
+        </div>
+    </section>
+
+
 
     <footer class="text-center text-lg-start mt-5">
         <div class="container footer-alto">
