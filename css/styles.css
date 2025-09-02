@@ -92,6 +92,19 @@ body{
     color: var(--color-oscuro) !important;
 }
 
+
+/* ====== TABLAS ====== */
+.table-dark {
+    background-color: var(--color-oscuro) !important;
+    color: #fff !important;
+}
+.table-dark th,
+.table-dark td {
+    background-color: var(--color-oscuro) !important;
+    color: #fff !important;
+    border-color: #222 !important;
+}
+
 /* ====== FOOTER ====== */
 footer {
     background-color: var(--color-marron) !important;
