@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Tertulia Cafetería</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 <body>
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: var(--color-marron);">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" style="background-color: var(--color-marron);">
             <div class="container">
                 <!-- LOGO -->
                 <a class="navbar-brand fw-bold" href="index.html">Tertulia Cafetería</a>
@@ -33,21 +33,8 @@
                             <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link " href="carta.html" id="menuDropdown" role="button"
-                               >
-                                Menú
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="menuDropdown">
-                                <li><a class="dropdown-item" href="cafes.html">Desayunos</a></li>
-                                <li><a class="dropdown-item" href="postres.html">Empanadas</a></li>
-                                <li><a class="dropdown-item" href="sandwich.html">Sandwich</a></li>
-                                <li><a class="dropdown-item" href="box.html">Al plato</a></li>
-                                <li><a class="dropdown-item" href="box.html">Pasteles/postres</a></li>
-                                <li><a class="dropdown-item" href="box.html">Helado</a></li>
-                                <li><a class="dropdown-item" href="box.html">Bebidas calientes</a></li>
-                                <li><a class="dropdown-item" href="box.html">Bebidas con alchol</a></li>
-                                <li><a class="dropdown-item" href="box.html">Bebidas frías</a></li>
-                            </ul>
+                            <a class="nav-link " href="carta.html" id="menuDropdown" role="button">
+                                Menú </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="somos.html">Quiénes somos</a>
@@ -216,7 +203,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Ice latte</h5>
                             <p class="card-text">Café con leche cremoso helado, mezcla perfecta.</p>
-                            <span class="fw-bold text-success">S/ 12.00</span>
+                            <span class="fw-bold precio-marron">S/ 12.00</span>
                         </div>
                     </div>
                 </div>
@@ -227,7 +214,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Torta de chocolate</h5>
                             <p class="card-text">Suave, húmeda y llena de sabor.</p>
-                            <span class="fw-bold text-success">S/ 15.00</span>
+                            <span class="fw-bold precio-marron">S/ 15.00</span>
                         </div>
                     </div>
                 </div>
@@ -238,7 +225,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Sandwich de jamón y queso</h5>
                             <p class="card-text">Pan artesanal con jamón y queso.</p>
-                            <span class="fw-bold text-success">S/ 10.00</span>
+                            <span class="fw-bold precio-marron">S/ 10.00</span>
                         </div>
                     </div>
                 </div>
@@ -261,8 +248,7 @@
                             <p class="card-text">Jr. Sibelius 984 Urb. Primavera, Trujillo - Perú</p>
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.030147830813!2d-79.0349833!3d-8.0984078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d93950fb9bb%3A0x8a04e02de80c555!2sTertulia!5e0!3m2!1ses!2spe!4v1756786629311!5m2!1ses!2spe"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                class="w-100" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -274,9 +260,7 @@
                             <h4 class="card-title fw-bold">LA MERCED</h4>
                             <p class="card-text">Ca. Santa Rosa Mz L Lote 1 Urb. La Merced 3 Etapa, Trujillo - Perú</p>
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.7475103181355!2d-79.03808699999999!3d-8.1271688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d28eaf3810f%3A0x5c4f980ea3dda454!2zIlRlcnR1bGlhIiBlbXBhbmFkYXMgJiBtw6Fz!5e0!3m2!1ses!2spe!4v1756786691893!5m2!1ses!2spe"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.7475103181355!2d-79.03808699999999!3d-8.1271688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d28eaf3810f%3A0x5c4f980ea3dda454!2zIlRlcnR1bGlhIiBlbXBhbmFkYXMgJiBtw6Fz!5e0!3m2!1ses!2spe!4v1756786691893!5m2!1ses!2spe" class="w-100" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

@@ -8,6 +8,7 @@
 }
 body{
     background-color: var(--color-claro);
+    padding-top: 77px;
 }
 
 /* ====== NAVEGADOR ====== */
@@ -84,7 +85,10 @@ body{
     background-color: var(--color-marron) !important;
     color: #fff !important;
 }
-
+.precio-marron {
+    color: var(--color-oscuro) !important;
+    font-weight: bold;
+}
 .pedidos{
     background-color: var(--color-oscuro);
 }
