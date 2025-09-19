@@ -9,6 +9,7 @@
 body{
     background-color: var(--color-claro);
     padding-top: 77px;
+    font-family: "Montserrat", arial;
 }
 
 /* ====== NAVEGADOR ====== */
