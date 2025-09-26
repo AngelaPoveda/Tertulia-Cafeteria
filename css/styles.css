@@ -6,6 +6,7 @@
     --color-acento: #a1887f;
     --blanco: #ffffff;
 }
+
 body{
     background-color: var(--color-claro);
     padding-top: 77px;
