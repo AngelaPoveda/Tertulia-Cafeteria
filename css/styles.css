@@ -336,3 +336,48 @@ footer h5 {
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--color-marron);
 }
+
+/*ANIMACIONES DE IMAGENES EN SOMOS*/
+/* Oculta cualquier parte que se salga de la tarjeta */
+.card {
+  overflow: hidden;
+}
+
+/* transición suave para las imágenes */
+.card-img-top {
+  transition: transform 0.4s ease;
+}
+
+/* cuando el cursor está sobre la tarjeta */
+.card:hover .card-img-top {
+  transform: scale(1.05) translateY(-5px); /* zoom + desplazamiento */
+}
+
+/* (opcional) también mover toda la tarjeta un poco */
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/*ESTILOS PARA VISION*/
+#vision .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#vision .card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Animación para mover la imagen a la izquierda al pasar el cursor en ¿quienes somos? */
+.img-hover {
+  transition: transform 0.3s ease; /* Animación suave */
+}
+
+.img-hover:hover {
+  transform: translateX(-20px); /* Se mueve 20px a la izquierda */
+}
+
