@@ -92,6 +92,12 @@ body{
     object-fit: cover;
     filter: brightness(60%);
 }
+/*hgfgh*/
+.card-img-top {
+  width: 100%;           /* ocupa todo el ancho del contenedor */
+  height: 450px;         /* alto fijo para que todas sean iguales */
+  object-fit: cover;     /* recorta la imagen para que no se deforme */
+}
 
 /* ====== SECCIONES ====== */
 .span-marron {
